@@ -1,4 +1,5 @@
-var run = function(data) {
+function main(data) {
+    console.log("funtionTest called");
     var data = {
         name:"functionTest1",
         value:"functionTest1 test",
@@ -7,6 +8,18 @@ var run = function(data) {
     return data;
 }
 
-module.exports = {
-    run:run
+// exports.main1 = function(data) {
+//     console.log("111")
+// }
+
+var fun1 = function(){
+    console.log("111")
 }
+
+
+exports = {
+    main1:fun1
+}
+
+
+console.log(exports)

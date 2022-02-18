@@ -7,5 +7,14 @@ qwb.cloud.callFunction({
         param2:"param2"
     }
 }).then(res => {
-    console.log(res.data);
+    // console.log(res.data);
 })
+
+
+// const ft = require('./functionTest')
+//  ft.main1()
+
+let a =['1', '2']
+console.log(a.length)
+console.log(a['length'])
+console['log'](a.length)
